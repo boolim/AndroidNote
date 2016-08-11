@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9F9F9"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteBig"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="60sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="P"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteTitle"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/noteBig"
+        android:layout_marginBottom="2dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteBody"
+        android:layout_below="@id/noteTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/noteBig"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Body"
+        />
+</RelativeLayout>
