@@ -25,6 +25,10 @@ public class Note {
         this.noteId = noteId;
         this.dateCreatedMilli = dateCreatedMilli;
     }
+    public long getId()
+    {
+        return noteId;
+    }
 
     public String getTitle() {
         return title;

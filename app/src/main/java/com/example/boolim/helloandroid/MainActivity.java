@@ -11,6 +11,11 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String NOTE_ID_EXTRA = "com.example.boolim.helloandroid:Note Identifier";
+    public static final String NOTE_TITLE_EXTRA = "com.example.boolim.helloandroid:Note Title";
+    public static final String NOTE_MESSAGE_EXTRA = "com.example.boolim.helloandroid:Note Message";
+    public static final String NOTE_CATEGORY_EXTRA = "com.example.boolim.helloandroid:Note Category";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
